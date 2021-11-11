@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*https://type-scale.com/
+https://freebiesbug.com/code-stuff/type-nugget-web-typography-css-generator/
+https://ia.net/topics/responsive-typography-the-basics
+https://uxdesign.cc/responsive-web-design-rwd-guide-to-responsive-typography-7c4836e9df0e
+https://css-tricks.com/snippets/css/fluid-typography/
+https://www.designsystems.com/typography-guides/
+https://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,300&family=Train+One&display=swap');
+body {
+  background-color: #CCCCCC;
+  background-image: url("../_images/png/wolken-landschap.png");
+  background-repeat: no-repeat;
+  color: #151515;
+}
+
+h1 {
+	font-family: 'Train One', cursive;
+	color: #fff;
+	font-size: 2.5em;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-shadow: 4px 4px 4px hsla(359,67%,57%,1.00);
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.2em;
+  text-align: center;
+  color:hsla(359,67%,57%,1.00)
+}
+p {
+  font-size: 1em;
+}
+ul {
+  list-style-type: none;
+}

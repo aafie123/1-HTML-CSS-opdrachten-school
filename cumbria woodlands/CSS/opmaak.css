@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+	font-family: verdana, sans-serif;
+ 	font-size: 1rem;
+ 	line-height: 1.2;
+	letter-spacing: 0.01rem;
+	color: black;
+}
+
+h1 {	
+}
+
+a:link, a:visited {
+  color: white;
+}
+a:hover, a:active {
+  color: black;
+}

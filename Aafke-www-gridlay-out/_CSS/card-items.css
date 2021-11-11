@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+section.section-cards {
+  display: flex;
+  flex-flow: column;
+}
+@media screen and (min-width: 1024px) {
+  section.section-cards {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
+figure.card {
+  min-width: 33%;
+  margin: 1%;
+  border-bottom: 2px solid #000;
+  background-color: hsla(359, 67%, 57%, 1.00);
+}
+figure {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 1%;
+}
+figcaption {
+  text-align: left;
+}
+figcaption.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  margin: 2%;
+}

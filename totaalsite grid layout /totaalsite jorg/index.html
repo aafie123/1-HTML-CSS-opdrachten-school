@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="html, css, javascript, boxmodel, padding, margin, hamburgermenu, web-design, webdesign">
+<meta name="description" content="Hier vind je alles over webdesign. neem een kijkje!">
+<title>Totaalsite</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="layout.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="container">
+		<nav>
+			<div id="hamburger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				<ul id="menu">
+					<li><a href="#">menu item 1</a></li>
+					<li><a href="#">menu item 2</a></li>
+					<li><a href="#">menu item 3</a></li>
+					<li><a href="#">menu item 4</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header>
+			<div id="logo"></div><!-- #logo -->
+		</header>
+		<main class="group">
+			<article>
+				<section class="item1">1</section>
+				<section class="item2">2</section>
+				<section class="item3">3</section>
+				<section class="item4">4</section>
+			</article>
+			<aside>
+				<h1>Titel</h1>
+				<p>Tekst in een artikel</p>
+				<a href="#">link</a>
+			</aside>
+		</main>
+		<footer></footer>
+	</div><!-- #container -->
+	
+	<!-- #script hamburgermenu -->
+	<script> 
+function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>

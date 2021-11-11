@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+	letter-spacing: 0.01rem;
+  background-color: #004682;
+  color: white;
+  box-sizing: border-box;
+}
+#container {
+  width: 80%;
+  max-width: 900px;
+  padding: 25px;
+  background-color: white;
+  background-image: url("_images/achtergrond-eind.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+header {
+  height: 102px;
+  /*background-color: orange;*/
+  
+}
+aside {
+  /*background: #333;*/
+  color: #FFF;
+}
+nav {
+  display: block;
+  width: 100%;
+  /*background-color:rgba(255,249,249,0.80);*/
+}
+main {
+  width: 100%;
+  display: block;margin-bottom:20px;
+  /*background-color:rgba(255,249,249,0.80);*/
+}
+
+ul {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+li {
+	display:inline-block;
+}
+section {
+  /*background-color: red;*/
+}
+footer {
+  clear: both;
+  margin: 0;
+  background-color: #004682;
+	
+}
+.footer-section-1, 
+ 
+
+.footer-section-2 {background-color:rgba(255,251,251,0.61);margin-bottom:20px;padding:20px;
+  
+}
+.footer-section-2{text-align:center;}
+
+@media (min-width:1023px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  main {
+    width: 75%;
+    float: left;
+  }
+	li {
+	display:block;
+}
+}

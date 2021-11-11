@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: arial;
+  background-color: #CCCCCC;
+  background-image: url("../_images/png/wolken-landschap.png");
+  background-repeat: no-repeat;
+  color: #000066;
+}
+header h1 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+h1 {
+  color: #fff;
+  font-size: 18px;
+}
+h2 {
+  font-size: 14px;
+}
+h3 {
+  font-size: 12px;
+  text-align: center;
+  color: #C00;
+}
+p {
+  font-size: 16px;
+}
+ul {
+  list-style-type: none;
+}
+/*links en navigatie*/
+a {
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:link, a:visited {
+  color: #1A1A1D;
+}
+a:hover, a:active {
+  color: #FD8A57;
+}
+/* id voor breadcrumb*/
+a#breadcrumb_link:link {
+  color: #637F8C;
+  font-style: italic;
+}
+/*class voor highlights*/
+.highlight {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.44);
+}

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+header, nav, main, aside, footer, section {
+	display:block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#container {
+	height:auto}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(afbeeldingen/easter-wallpaper-03.jpg);	
+}
+
+main img {
+    width: 40%;
+	min-width: 150px;
+	height:auto;
+	float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+main h1 {
+	font-size: 2em;
+}
+
+section {
+	background-color: aqua;
+}
+
+section h1 {
+	font-size: 2em;
+	
+}
+
+header {
+    height: 150px;
+    background-color: darkseagreen;
+    background-image: url(afbeeldingen/header.jpg);
+	background-size:cover;
+	background-position: center;
+}
+
+nav {
+	height: 50px;
+	background-color: aqua;
+}
+
+main {
+	min-height: 300px;
+	background-color: burlywood;
+}
+
+aside {
+	height: 150px;
+	background-color: coral;
+}
+
+#aside-right {
+	background-color: cornflowerblue;
+}
+
+footer {
+	height: 100px;
+	background-color: darkkhaki;
+}
+.group:after {
+ 	content: "";
+  	display: table;
+	clear: both;
+}
+/*tablet*/
+@media screen and (min-width:768px){
+	#container{
+		width: 80%;
+		margin: auto;
+	}
+	
+	main {
+		float: right;
+		width: 75%;
+	}
+	#aside-left {
+		float: left;
+		width: 25%;
+		min-height: 300px;
+	}
+
+}
+/*desktop*/
+@media screen and (min-width:1025px){
+		#aside-right {
+		float: right;
+		width: 20%;
+		min-height: 568px;
+	}
+		#aside-left {
+		float: right;
+		width: 25%;
+		min-height: 568px;
+	}
+	
+		#wrapper {
+		float: left;
+		width: 80%;
+	}
+
+}

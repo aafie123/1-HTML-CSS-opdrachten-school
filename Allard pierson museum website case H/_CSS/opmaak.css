@@ -1,0 +1,94 @@
+
+p   {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+h1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 35px;
+	margin-bottom: 0;
+}
+h2 {
+    color: #FFFFFF;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 9px;
+}
+h3 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #5E5E5E;
+    text-align: left;
+    line-height: 8px;
+}
+h5 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    line-height: 8px;
+}
+h4 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+nav {
+	overflow: hidden;
+}
+
+ul { 
+	list-style-type:none;
+	margin-top: 10px;
+}
+
+li {
+    display: inline;
+	
+}
+
+li a {
+    text-decoration: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 15px;
+	
+}
+
+a:link {
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: red;
+}
+
+/*het dropdown gedeelte*/
+
+nav ul ul { 
+	padding-left:2px; 
+    	display: none; /*de geneste <ul> tags worden niet getoond, tenzij muis boven een <li> tag wordt geschoven (hover).*/
+	}
+
+li:hover > ul /*of nav ul li: hover ul*/ /*dit gaat over het submenu*/{
+    display: block;
+	position: absolute;
+}
+
+nav ul ul li {
+	display: block;
+}
+

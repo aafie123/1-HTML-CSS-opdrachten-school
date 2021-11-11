@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allard Pierson Museum</title>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link href="_CSS/opmaak.css" rel="stylesheet" type="text/css">
+<link href="_CSS/layout.css" rel="stylesheet" type="text/css">
+    <!--https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+</head>
+
+<body>
+	
+<div id="container">
+		<header>
+			  <div id="logo"></div>
+	<nav class="menu_rechtsboven" id="mymenu_rechtsboven"><!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <ul id="myLinks">
+		   			<li>
+		      		<a href="#">Blijf op de hoogte</a> 
+					<a href="#">pers</a> 
+					<a href="#">Contact</a> 
+					<a href="#">English</a>
+						<li> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a></li>
+					</li>
+					</ul>
+	    			</nav>
+		</header>
+	<div id="balk"></div>
+	
+	<main> 
+	  		<div id="menu">
+			<div id="titel"><h1>Allard Pierson Museum</h1></div>
+			<nav class="hoofdmenu">
+              <ul>
+                        <li>
+                          <a href="kleurplaten/kleurplaten.html">Kleurplaten</a> <a href="#">Filmpjes</a> 
+							<a href="#">Virtuele rondleiding</a> 
+					    </li>
+                      </ul>
+		  </nav>
+	</div>
+ <div class="kleurplaten">
+
+	  </div>
+	 
+  </main>
+
+
+	
+</div><!--einde container-->
+	
+<script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("mymenu_rechtsboven");
+  if (x.className === "menu_rechtsboven") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu_rechtsboven";
+  }
+}  </script>
+</body>
+</html>

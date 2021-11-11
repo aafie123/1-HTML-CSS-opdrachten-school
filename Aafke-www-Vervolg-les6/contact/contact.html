@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wereldwijd reizen-Contact</title>
+<style type="text/css"></style>
+<link href="../_CSS/css-reset.css" rel="stylesheet" type="text/css">
+<link href="../_CSS/opmaak.css" rel="stylesheet" type="text/css">
+<link href="../_CSS/layout.css" rel="stylesheet" type="text/css">
+<link href="../_CSS/menu.css" rel="stylesheet" type="text/css">
+<link href="../_CSS/clearfix.css" rel="stylesheet" type="text/css">
+<link href="../_CSS/form-styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container">
+  <header>
+    <div id="logo"><a href="../index.html">WereldWijd<span id="url">.nl</span></a></div>
+    <h1>Maak de mooiste reizen met Wereldwijd</h1>
+  </header>
+  <div id="breadcrumb">
+    <h2>Wereldwijd - <a id="breadcrumb_link" href="../index.html">home</a>-contact</h2>
+  </div>
+  <div id="content">
+    <nav id="left_menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Bestemming</a>
+          <ul>
+            <li><a href="#">Europa</a></li>
+            <li><a href="#">Afrika</a></li>
+            <li><a href="#">Canada</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Vervoer</a></li>
+        <li> <a href="#">Verblijf</a></li>
+      </ul>
+    </nav>
+    <div id="ad">
+      <ul>
+        <li><a href="#">hotels</a></li>
+        <li><a href="#">shops</a></li>
+        <li><a href="#">food</a></li>
+        <li><a href="#">sights</a></li>
+        <li><a ><img src="../_images/jpg/train-thmb.jpg" width="100" height="100" alt=""/>trains</a></li>
+      </ul>
+    </div>
+    <article>
+      <h1>Aanvragen info WereldWijd reizen</h1>
+      <p class="belangrijk">Vul svp onderstaand formulier in en ontvang brochures kaarten etc van onze prachtige reizen.</p>
+      <form id="contact">
+        <fieldset>
+          <legend> uw gegevens</legend>
+          <table width="400" border="0">
+            <tbody>
+              <tr>
+                <td><label for="txt_anaam">* Achternaam: </label></td>
+                <td><input name="txt_anaam" autofocus required form="contact"></td>
+              </tr>
+              <tr>
+                <td><label for="txt_vnaam">* Voorletters: </label></td>
+                <td><input name="txt_vnaam"  required form="contact"></td>
+              </tr>
+              <tr>
+                <td><label for="rb_geslacht">Geslacht:</label></td>
+                <td><input type="radio" name="rb_geslacht" value="man" id="rb_geslacht_0">
+                  man
+                  <input type="radio" name="rb_geslacht" value="vrouw" id="rb_geslacht_1">
+                  vrouw
+                  <input type="radio" name="rb_geslacht" value="niet" id="rb_geslacht_2">
+                  nvt </td>
+              </tr>
+              <tr>
+                <td><label for="txt_straat">* Straat: </label></td>
+                <td><input name="txt_straat"  required form="contact"></td>
+              </tr>
+              <tr>
+                <td><label for="txt_pcode">* Postcode: </label></td>
+                <td><input name="txt_pcode"  required form="contact"></td>
+              </tr>
+              <tr>
+                <td><label for="txt_wplaats">* Woonplaats: </label></td>
+                <td><input name="txt_wplaats"  required form="contact"></td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend> uw aanvraag</legend>
+          <table width="400" border="0">
+            <tbody>
+              <tr>
+                <td><label for="sl_choose">Informatie:</label></td>
+                <td><select id="sl_choose" name="sl_choose">
+                    <option value="1">Bestemmingen</option>
+                    <option value="1">Europa</option>
+                    <option value="1">Afrika</option>
+                    <option value="1">Canada</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td><label for="cb_ptype">info per:</label></td>
+                <td><input type="checkbox" name="cb_post" value="post" id="cb_ptype_0">
+                  per post </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><label>
+                    <input type="checkbox" name="cb_mail" value="mail" id="cb_ptype_1">
+                    e-mail</label></td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>verstuur uw aanvraag</legend>
+          <label>* uw email
+            <input type="email"  required form="contact">
+          </label>
+          <input type="submit" form="contact" formaction="info@mypraag.nl" formmethod="POST" value="verstuur nu">
+        </fieldset>
+      </form>
+    </article>
+  </div>
+  <footer>
+    <nav id="footer_nav">
+      <ul>
+        <li><a href="mailto:info@gmi-designschool.nl">Contact</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </nav>
+    <h4>De wereld is groot en wijd maar ver weg is niet altijd het beste!</h4>
+    <p>&copy; Gmi designschool. 2021</p>
+  </footer>
+  <div id="trains"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>flexbox</title>
+<style type="text/css">
+body {
+    color: #fff;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    line-height: 1;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    background-image: url(_images/zonnebloem-bkgr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+	
+	max-width:1024px;
+    background-color: #698E71;
+}
+img {width:100%;height:auto;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item {
+    background-color: #1c3051;
+    border: solid 1px #ff6600;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+}
+	header{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";text-align: center;text-transform:uppercase;background-color: #000;}
+	footer{text-align:center;background-color:#202C23;padding:2em;}
+	h1, h2{margin:0;padding:1em;}
+	p{padding:1em;}
+</style>
+</head>
+
+<body>
+
+  <header>
+    <h1>De mooiste bloemen</h1>
+  </header>
+  <nav></nav><div id="wrapper">
+  <article>
+    <h2>Bloemensymboliek</h2>
+    <p>Behalve kleuren is natuurlijk ook de soort bloem van belang. ‘Zeg het met bloemen’ is niet voor niets een bekende gevleugelde uitspraak. Maar wat zeg je precies met die, op het eerste oog betekenloze, bloemen?</p>
+    <ul>
+      <li>Tulp – de perfecte liefde</li>
+      <li>Lelie – je bent lief</li>
+      <li>Zonnebloem – je bent fantastisch</li>
+      <li> Margriet – je maakt me gelukkig</li>
+      <li>Klaproos – troost</li>
+    </ul>
+    <section>
+      <div class="container">
+        <figure class="item"><img src="_images/zonnebloem.jpg"  alt=""/>
+          <figcaption>Zonnebloem</figcaption>
+        </figure>
+        <figure class="item"><img src="_images/clematis.jpg"  alt=""/>
+          <figcaption>Clematis</figcaption>
+        </figure>
+        <figure class="item"><img src="_images/lelie.jpg"  alt=""/>
+          <figcaption>Lelie</figcaption>
+        </figure>
+        <figure class="item"><img src="_images/margriet.jpg" alt=""/>
+          <figcaption>Margriet</figcaption>
+        </figure>
+        <figure class="item"><img src="_images/roos.jpg"  alt=""/>
+          <figcaption>Roos</figcaption>
+        </figure>
+        <figure class="item"><img src="_images/klaproos.jpg"  alt=""/>
+          <figcaption>Klaproos</figcaption>
+        </figure>
+      </div>
+    </section>
+  </article>
+  <footer>
+    <p>&copy; Os boemenshopje 2019</p>
+  </footer>
+</div>
+</body>
+</html>

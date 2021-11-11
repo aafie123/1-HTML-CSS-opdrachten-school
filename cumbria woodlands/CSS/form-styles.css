@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+form {
+	
+}
+
+legend {
+ 
+}
+text {
+	border: 1px thin #black;
+}
+textarea {
+  width: 300px;
+  min-height: 100px;
+	border: 1px thin;
+}
+td {
+  width: 200px;
+}

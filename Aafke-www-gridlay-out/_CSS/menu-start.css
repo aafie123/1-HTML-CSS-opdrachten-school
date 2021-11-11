@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/*Met behulp van deze style sheet, maak je het verticale menu horizontaal met display inline of flex*/
+
+nav ul li {
+  background-color: #fff;
+  padding: 1%;
+}
+li:hover {
+  background-color: #444;
+}
+/*links en navigatie*/
+a {
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a:link, a:visited {
+  color: #1A1A1D;
+}
+a:hover, a:active {
+  color: #FD8A57;
+}
+/* class voor breadcrumb*/
+a.breadcrumb_link {
+  color: #637F8C;
+  font-style: italic;
+  font-size: 1em;
+}
+/*footer menu*/
+footer ul {
+  background-color: #00013E;
+}
+.breadcrumb {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}

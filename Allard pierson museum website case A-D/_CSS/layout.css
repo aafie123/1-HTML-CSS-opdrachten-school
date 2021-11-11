@@ -1,0 +1,141 @@
+#container {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    background-color: #D9D9D9;
+    position: relative;
+}
+#header {
+    width: 960px;
+    height: 100px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#logo {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background-image: url(../over%20het%20museum/images/allardpiersonmuseum-en-uva-logo-nl.jpg);
+}
+#nav1  {
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+	right: 1px;
+    display: inline;
+	margin: 0px 5px
+}
+
+#nav1 ul { 
+	list-style-type:none;
+}
+
+#nav1 li { 
+	display: inline;
+	margin: 0px 5px
+}
+
+#balk {
+    width: 960px;
+    background-color: #262828;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+#menu {
+    width: 840px;
+    height: 100px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 60px;
+    top: 238px;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 35px;
+}
+#nav2 {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 2;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+}
+
+#nav2 ul { 
+	list-style-type:none;
+}
+
+#nav2 li { 
+	display: inline;
+	margin: 0px 5px
+}
+	
+#balkje {
+    width: 450px;
+    background-color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    position: absolute;
+    top: 400px;
+    height: 40px;
+    left: 250px;
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+#button facebook {
+    width: 450px;
+	height: 40px;
+    position: absolute;
+    top: 400px;
+    left: auto;
+    right: 10px;
+	z-index: 3;
+    background-image: url(../over%20het%20museum/images/facebook.png);
+}
+#footer {
+    width: 960px;
+    height: 160px;
+    background-color: #DBDBDB;
+    z-index: 4;
+    position: relative;
+}
+	
+#footerblok1{
+    width: 300px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#footerblok2 {
+    width: 300px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 215px;
+}
+#footerblok3 {
+    width: 300px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}

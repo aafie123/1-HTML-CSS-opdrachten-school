@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/*Met behulp van deze style sheet, maak je het verticale menu horizontaal met display inline of flex*/
+/*horizontaal menu met display inline block*/
+/*nav ul li {
+  display: inline;
+}*/
+a {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+}
+nav ul li {
+  background-color: #fff;
+  margin: 5px;
+  border-bottom-left-radius: 10px;
+  transition: all .5s ease-in-out .05s;
+}
+li:hover {
+  background-color: #444;
+}
+li ul.transition {
+  left: 0; /*always in the right place*/
+  max-height: 0px;
+  overflow: hidden; /* to have hidden content */
+  border-top: none; /* you don't want to show the border when closed */
+  transition: max-height 1s; /*or change with your value */
+}
+li:hover > ul.transition {
+  max-height: 1000px;
+  border-top: 2px solid #000;
+}
+/*Flex voor responsive design*/
+/*nav ul{display: flex;background-color:#030042;}
+nav ul li{flex: auto;}*/

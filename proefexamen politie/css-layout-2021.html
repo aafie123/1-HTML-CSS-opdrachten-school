@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Layout</title>
+<link href="layout-start.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">#container: centreer op pagina: max-width:900px
+  <header>
+    <h1>Header: layout voor mobile</h1>
+    <p>Vaste hoogte van 100 px </p>
+  </header>
+  <nav>
+    <h2>Hoofdmenu</h2>
+    <ul>
+      <li>Op desktop flexibele breedte 25%</li>
+      <li>Op mobile: 100%</li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <aside>
+        <h2>Submenu</h2>
+        <ul>
+          <li>laatste nieuws</li>
+          <li>Boven de inhoud</li>
+          <li>Breedte flexibel net als de inhoud</li>
+        </ul>
+      </aside>
+      <section>
+        <h2>Inhoud op desktop</h2>
+        <ul>
+          <li>positie rechts </li>
+          <li>Breedte 75% </li>
+          <li>Hoogte is variabel. </li>
+          <li>Bij meer inhoud wordt de kolom langer en schuiven de footer boxen automatisch mee.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Inhoud op mobile</h2>
+        <ul>
+          <li>positie vullend </li>
+          <li>Breedte 100% </li>
+          <li>Hoogte is variabel. </li>
+          <li>Bij meer inhoud wordt de kolom langer en schuiven de footer boxen automatisch mee.</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <section class="footer-section-1">
+      <h2>Footer 1.</h2>
+    </section>
+    <section class="footer-section-2">
+      <h2>Footer 2.</h2>
+    </section>
+  </footer>
+</div>
+</body>
+</html>

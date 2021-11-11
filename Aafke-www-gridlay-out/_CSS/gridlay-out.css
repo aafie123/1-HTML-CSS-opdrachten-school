@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+    "hd hd hd hd"
+    "nav nav nav nav"
+    "brd brd brd brd"
+    "main main main main"
+    "art art art art"
+    "ft ft ft ft"
+}
+article {
+  display: grid;
+  grid-template-columns: (4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "mai mai mai mai"
+    "gal gal gal gal"
+    "high high high high"
+    "low low low low"
+}
+@media screen and (min-width: 1024px) {
+  article {
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "mai mai mai mai"
+      "gal gal gal gal"
+      "high high high low"
+  }
+}
+
+
+
+
+
+header {
+  grid-area: hd;
+}
+nav {
+  grid-area: nav;
+}
+.breadcrumb {
+  grid-area: brd;
+}
+main {
+  grid-area: main;
+}
+article {
+  grid-area: art;
+}
+.section-main {
+  grid-area: mai;
+}
+.section-gallery {
+  grid-area: gal;
+}
+.section-high {
+  grid-area: high;
+}
+.section-low {
+  grid-area: low;
+}
+footer {
+  grid-area: ft;
+}

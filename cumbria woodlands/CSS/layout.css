@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body {
+	margin-top: 20px;
+	padding: 0;
+	background-color: #006600;
+}
+
+header, nav, article, aside, content, footer {
+	box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../afbeeldingen/bg.png);
+}
+
+header {
+    min-height: 150px;
+    background-image: url(../afbeeldingen/trees.jpg);
+}
+
+#logo {
+    margin-top: 20px;
+	margin-right: 20px;
+	width: 247px;
+    height: 109px;
+    float: right;
+    background-image: url(../afbeeldingen/logo-cumbria-woodlands.png);
+    background-repeat: no-repeat;
+}
+
+ul {
+  padding-left: 0px;
+  margin: 0;
+}
+
+.hoofdmenu {
+	
+}
+
+.zwart {
+	border-radius: 6px;
+	background-color: black;
+	color: white;
+	min-width: 80px;
+	min-height: 30px;
+	text-decoration: underline;
+}
+
+.wit {
+	border-radius: 6px;
+	background-color: white;
+	color: black;
+	min-width: 80px;
+	min-height: 30px;
+	text-decoration: underline;
+}
+
+.showbasket {
+	
+}
+
+nav {
+	min-height: 20px;
+}
+
+article {
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-bottom: 60px;
+}
+
+/*img {
+    width: 100%;
+    max-height: 200px;
+}*/
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+#tekstblok1 {
+}
+
+#vlam {
+    margin-top: 10px;
+	float: right;
+	border: 3px solid #000000;
+}
+
+aside {
+
+	min-height: 20px;
+	margin-top: 10px;
+}
+
+footer {
+	background-color: black;
+	min-height: 100px;
+    color: white;
+    text-align: center;
+	padding-top: 35px;
+	
+}
+
+.group:after {
+ 	content: "";
+ 	display: table;
+  	clear: both;
+}
+
+@media screen and (min-width:800px)/*Desktop*/{
+aside {
+	float: left;
+	width: 25%;
+	}
+	
+article {
+	float: right;
+	width: 75%;
+	}
+	
+
+}

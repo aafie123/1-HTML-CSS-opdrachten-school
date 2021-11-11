@@ -1,0 +1,139 @@
+@charset "utf-8";
+body{margin:0; padding:0;}
+nav, header, main, article, aside, footer, section{display:block; box-sizing:border-box;}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#container{
+	background-color:darkseagreen;
+}
+nav{
+	min-height:50px;
+	background-color:lightgreen;
+}
+#hamburger{
+	width:50px;
+	height:50px;
+	background-color:black;
+	color:white;
+	position:relative;
+}
+a{
+	color:white;
+}
+a:active{
+	color:black;
+}
+#menu{
+	width:200px;
+	min-height:200px;
+	position:absolute;
+	top:50px;
+	left:0px;
+	z-index:999;
+	display:none;
+}
+header{
+	height:80px;
+	background-color:black;
+	position:relative;
+}
+#logo{
+	width:70px;
+	height:70px;
+	background-color:red;
+	border-radius:50%;
+	position:absolute;
+	left:30px;
+	bottom:-30px;
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(100,100,100,0.5);
+	box-shadow: 5px 5px 5px 0 rgba(100,100,100,0.5);
+}
+main{
+	display:flex;
+	flex-direction: column;
+}
+main article{
+	min-height:300px;
+}
+aside{
+	min-height:150px;
+	background-color:mediumspringgreen;
+	padding:20px;
+}
+footer{
+	height:50px;
+	background-color:darkolivegreen;
+}
+.item1 {
+  grid-area: artikel;
+background-color:brown;
+}
+.item2 {
+  grid-area: rechts-boven;
+	background-color:coral;
+}
+.item3 {
+  grid-area: rechts-onder;
+	background-color:darkblue;
+}
+.item4 {
+  grid-area: onder;
+	background-color:crimson;
+}
+article > section {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+@media screen and (min-width:600px){
+	header{height:150px;}
+	main{
+	flex-direction: row;
+	min-height:300px;
+	align-items: stretch;
+}
+	article{
+		flex:70%;
+		grid-template-areas: 'artikel artikel rechts-boven'
+  					         'artikel artikel rechts-onder'
+							 'onder onder onder';
+		order: 2;
+		min-height:auto;
+		display:grid;
+		grid-gap: 10px;
+	}
+	aside{
+		flex:30%;
+		order: 1;
+	}
+	footer{height:100px;}
+	
+	#logo{
+	width:100px;
+	height:100px;
+	-webkit-box-shadow: 10px 10px 10px 0 rgba(100,100,100,0.5);
+	box-shadow: 10px 10px 10px 0 rgba(100,100,100,0.5);
+}
+
+}
+
+
+@media screen and (min-width:1025px){
+	#container{
+		width:1024px;
+		margin:0 auto;
+	}
+	header{height:200px;}
+	article{
+		order: 1;
+	}
+	aside{
+		order: 2;
+	}
+	footer{height:150px;}
+}
+

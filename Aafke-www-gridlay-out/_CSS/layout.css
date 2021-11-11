@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+/*Alle inhoud gecentreerd met de #container*/
+#container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-image: url("../_images/png/banner-900-300.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*Image in de background, h1 kan op image geplaatst*/
+  height: 300px;
+}
+/*CSS regels voor het logo in de header met link naar home*/
+#logo {
+  background-color: #00013E;
+}
+#logo a {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 40px;
+}
+#url {
+  color: #C100A2;
+  font-size: 24px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb {
+  padding-left:1em;
+}
+main {
+  overflow: hidden;
+  background-color: #734700;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+article {
+  
+  margin: 0 auto;
+}
+section {padding: 1em;margin:1em;
+  background-color:darkorange;
+}
+/*opheffen container collapse met clear: both in het eerstvolgende element in de normal flow*/
+footer {
+  text-align: center;
+  /*clear: both;*/
+}
+
+
+

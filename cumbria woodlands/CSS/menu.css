@@ -1,0 +1,51 @@
+@charset "UTF-8";
+li {
+	padding-left: 25px;
+}
+
+nav ul li {
+display: block;
+	background-color: black;
+	border-bottom: 10px;
+}
+
+nav ul a {
+display: block; 
+padding: 10px;
+}
+
+nav ul {
+	background-color: black;
+}
+
+li ul {
+display: none;
+}
+
+li:hover {
+background-color: white;
+}
+
+li:hover > ul {
+display: block;
+}
+
+
+@media screen and (min-width:800px)/*Desktop*/{
+
+nav a {
+	display: inline;
+	background-color:red;
+}
+	
+nav ul li {
+display: inline-block;
+	background-color: black;
+}
+	
+	
+nav ul a {
+padding: 10px;
+}
+	
+}
